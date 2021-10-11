@@ -1,0 +1,19 @@
+@import '../../theme';
+.container {
+  padding: 50px 0;
+  background-color: $light_blue;
+  .title {
+    font-size: 48px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: $charcoal;
+    @media screen and (max-width: $breakpoint1) {
+      font-size: 26px;
+    }
+  }
+  .courseWrapper {
+    margin: 30px 0;
+    // display: flex;
+    // justify-content: center;
+  }
+}

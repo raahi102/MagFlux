@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Helvetica Neue Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url(./assets/fonts/HelveticaNeueBold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Helvetica Neue 66 Medium Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: url(./assets/fonts/HelveticaNeueMediumItalic.woff) format('woff');
+}
+@font-face {
+  font-family: 'Helvetica Neue Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: url(./assets/fonts/HelveticaNeueMedium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Helvetica Neue Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url(./assets/fonts/HelveticaNeue.woff) format('woff');
+}
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue Bold', 'Roboto', 'Oxygen', 'Ubuntu',
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Cantarell', 'Fira Sans',
+    'Droid Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

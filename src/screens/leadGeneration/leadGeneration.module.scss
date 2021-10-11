@@ -1,0 +1,20 @@
+@import '../../theme';
+.container {
+  color: $charcoal;
+  font-family: $primary_font_bold;
+
+  .title {
+    font-size: 48px;
+    text-align: center;
+    margin: 60px 0;
+    @media screen and (max-width: $breakpoint1) {
+      font-size: 30px;
+      margin: 40px 0;
+    }
+  }
+  .formWrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+}

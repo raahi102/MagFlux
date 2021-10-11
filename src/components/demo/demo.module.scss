@@ -1,0 +1,84 @@
+@import '../../theme';
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 'video title' ' video features' 'video action';
+  padding: 40px 25px;
+  @media screen and (max-width: $breakpoint1) {
+    grid-template-columns: none;
+    grid-template-areas: 'title' 'features' 'action' 'video';
+  }
+  .video {
+    grid-area: video;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .host {
+      //   border: 1px solid #00000080;
+      //   width: 270px;
+      //   height: 150px;
+      //   display: flex;
+      //   justify-content: center;
+      //   align-items: center;
+      //   border-radius: 12px;
+      //   font-size: 23px;
+    }
+  }
+  .title {
+    grid-area: title;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: $charcoal;
+    @media screen and (max-width: $breakpoint1) {
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+  .featureList {
+    grid-area: features;
+    color: $charcoal;
+    .eachList {
+      margin: 5px 0;
+      display: flex;
+      @media screen and (max-width: $breakpoint1) {
+        justify-content: center;
+        //   font-size: 20px;
+        //   text-align: center;
+      }
+      .tick {
+        svg {
+          font-weight: 100;
+        }
+      }
+      .text {
+        margin-left: 10px;
+      }
+    }
+  }
+  .action {
+    grid-area: action;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    @media screen and (max-width: $breakpoint1) {
+      justify-content: center;
+      margin-bottom: 30px;
+      //   text-align: center;
+    }
+    .btn {
+      cursor: pointer;
+
+      border: 3px dashed $mid_blue;
+      color: white;
+      padding: 9px 2px;
+      border-radius: 25px;
+      a {
+        all: unset;
+        color: white;
+        padding: 7px 18px;
+        background-color: $mid_blue;
+        border-radius: 25px;
+      }
+    }
+  }
+}

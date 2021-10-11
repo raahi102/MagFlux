@@ -1,0 +1,61 @@
+@import '../../theme';
+
+.container {
+  padding: 50px 0;
+  .title {
+    font-size: 48px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: $charcoal;
+    @media screen and (max-width: $breakpoint1) {
+      font-size: 26px;
+    }
+  }
+  .eachSlide {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    a {
+      all: unset;
+      .line1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // width: 80%;
+        @media screen and (max-width: $breakpoint1) {
+          width: 100%;
+          justify-content: center;
+        }
+        .logo {
+          img {
+            height: 80px;
+            width: auto;
+            @media screen and (max-width: $breakpoint1) {
+              width: 50px;
+            }
+          }
+        }
+        .agency {
+          margin-left: 21px;
+          font-size: 40px;
+          color: $charcoal;
+          @media screen and (max-width: $breakpoint1) {
+            font-size: 23px;
+          }
+        }
+      }
+      .news {
+        // width: 80%;
+        font-size: 28px;
+        color: $charcoal;
+        margin: 22px 0;
+        @media screen and (max-width: $breakpoint1) {
+          font-size: 18px;
+          width: 90%;
+        }
+      }
+    }
+  }
+}

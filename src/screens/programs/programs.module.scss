@@ -1,0 +1,41 @@
+@import '../../theme';
+.container {
+  color: $charcoal;
+
+  .section {
+    width: 100%;
+  }
+  .steps {
+    padding: 20px 45px;
+    .title {
+      font-size: 48px;
+      text-align: center;
+      margin-bottom: 50px;
+      @media screen and (max-width: $breakpoint1) {
+        font-size: 32px;
+      }
+    }
+    .eachStep {
+      padding: 0 5%;
+      .stepCount {
+        font-size: 30px;
+        @media screen and (max-width: $breakpoint1) {
+          font-size: 22px;
+        }
+      }
+      .detail {
+        font-weight: 500;
+        font-size: 22px;
+        margin: 40px 0;
+        @media screen and (max-width: $breakpoint1) {
+          font-size: 17px;
+        }
+        a {
+          all: unset;
+          color: $link_blue;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

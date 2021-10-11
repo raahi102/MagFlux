@@ -1,0 +1,71 @@
+@import '../../theme';
+.container {
+  background-color: $officer_blue;
+  display: grid;
+  color: white;
+  padding: 50px 30px 30px 30px;
+  grid-template-areas:
+    'brand links links'
+    'license license social';
+  grid-template-columns: 200px 1fr;
+  row-gap: 30px;
+  @media screen and (max-width: $breakpoint1) {
+    grid-template-columns: none;
+    grid-template-areas: 'brand' 'social' 'license';
+    justify-content: center;
+  }
+  .brand {
+    grid-area: brand;
+    font-size: 25px;
+    @media screen and (max-width: $breakpoint1) {
+      text-align: center;
+    }
+  }
+  .links {
+    grid-area: links;
+    justify-self: start;
+    @media screen and (max-width: $breakpoint1) {
+      display: none;
+    }
+    ul {
+      :nth-child(1) {
+        margin: 0;
+      }
+      li {
+        margin: 20px 0;
+        font-size: 14px;
+        a {
+          color: white;
+          text-decoration: none;
+          cursor: pointer;
+        }
+      }
+    }
+    .activeLink {
+      color: $orange;
+    }
+  }
+  .license {
+    grid-area: license;
+    @media screen and (max-width: $breakpoint1) {
+      text-align: center;
+    }
+  }
+  .social {
+    grid-area: social;
+
+    ul {
+      padding: 0;
+      display: flex;
+      margin: 0;
+      @media screen and (max-width: $breakpoint1) {
+        justify-content: center;
+      }
+      a {
+        color: white;
+        cursor: pointer;
+        margin: 0 9px;
+      }
+    }
+  }
+}

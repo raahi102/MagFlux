@@ -1,0 +1,78 @@
+@import '../../theme';
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 50px;
+  .title {
+    font-size: 48px;
+    color: $charcoal;
+    @media screen and (max-width: $breakpoint1) {
+      font-size: 24px;
+    }
+  }
+  .offers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    margin-top: 60px;
+    width: 100%;
+    justify-content: space-around;
+    @media screen and (max-width: $breakpoint1) {
+      grid-template-columns: none;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      row-gap: 30px;
+    }
+    // flex
+    .eachOffer {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      @media screen and (max-width: $breakpoint1) {
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+      img {
+        width: 60%;
+        height: auto;
+        @media screen and (max-width: $breakpoint1) {
+          width: 30%;
+          height: auto;
+        }
+      }
+      .feature {
+        margin: 30px 0;
+        color: $charcoal;
+        font-size: 24px;
+        text-align: center;
+        @media screen and (max-width: $breakpoint1) {
+          font-size: 16px;
+          margin-left: 30px;
+          flex: 1;
+          text-align: left;
+        }
+      }
+    }
+  }
+  .chatBubble {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 11;
+    cursor: pointer;
+    @media screen and (max-width: $breakpoint1) {
+      bottom: 20px;
+      right: 20px;
+    }
+    img {
+      height: auto;
+      width: 60px;
+      @media screen and (max-width: $breakpoint1) {
+        width: 40px;
+      }
+    }
+  }
+}

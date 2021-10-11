@@ -1,0 +1,23 @@
+@import '../../theme';
+.container {
+  margin: 20px 0;
+  .name {
+    text-align: center;
+    font-family: $primary_font_bold;
+    font-size: 48px;
+    color: $charcoal;
+    margin-bottom: 45px;
+  }
+  .cardsWrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    row-gap: 20px;
+    column-gap: 20px;
+    grid-auto-flow: row;
+    margin-bottom: 60px;
+    .eachCard {
+      .head {
+      }
+    }
+  }
+}

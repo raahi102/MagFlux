@@ -1,0 +1,35 @@
+@import './global';
+//colors
+$error_bg_color: #ffbaba;
+$error_text_color: #7d1e04;
+$success_bg_color: #dff2bf;
+$success_text_color: #92a420;
+$charcoal: #2f2c2c;
+$light_pink: #fa9db7;
+$light_blue: #88d4f5;
+$mid_blue: #0084b4;
+$link_blue: #0079f2;
+$officer_blue: #213669;
+$yellow_mid_bright: #f7b500;
+$yellow_dull: #fbd889;
+$orange: #ff6400;
+$orange_dark: #e02020;
+$white: #fffefe;
+$black: #0a0000;
+$nobel_gray: #b3b3b3;
+$viking_blue: #55b7dc;
+//responsive breakpoints (larger to smaller)
+$breakpoint1: 850px;
+$breakpoint2: 768px;
+$breakpoint3: 680px;
+$breakpoint4: 500px;
+$breakpoint5: 414px;
+$breakpoint6: 375px;
+$breakpoint7: 320px;
+//fonts
+$primary_font_bold: 'Helvetica Neue Bold';
+$primary_font_medium_italic: 'Helvetica Neue 66 Medium Italic';
+$primary_font_medium: 'Helvetica Neue Medium';
+$primary_font_regular: 'Helvetica Neue Regular';
+//others
+$box_shadow_default: 0px 0px 6px 3px rgba(0, 0, 0, 0.1);

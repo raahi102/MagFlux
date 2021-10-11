@@ -1,0 +1,101 @@
+@import '../../theme';
+.container {
+  padding: 20px;
+  display: grid;
+  position: relative;
+  grid-template-areas: 'logo nav decorated';
+  @media screen and (max-width: $breakpoint1) {
+    grid-template-areas: 'logo decorated' 'burger _' 'nav nav';
+  }
+  .logo {
+    grid-area: logo;
+    cursor: pointer;
+  }
+  .nav {
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    align-items: center;
+    text-align: center;
+    
+    @media screen and (max-width: $breakpoint1) {
+      grid-template-rows: repeat(7, auto);
+      margin-top: 20px;
+      
+      grid-template-columns: none;
+      grid-row-gap: 20px;
+      justify-content: flex-start;
+      text-align: left;
+    }
+    .title {
+      font-size: 28px;
+      text-align: center;
+      margin-bottom: 50px;
+      @media screen and (max-width: $breakpoint1) {
+        font-size: 32px;
+      }
+    }
+    a {
+      text-decoration: none;
+      color: $charcoal;
+      cursor: pointer;
+      font-size: 15px;
+    }
+
+    .activeLink {
+      color: $orange;
+    }
+  }
+  .decoratedBtn {
+    grid-area: decorated;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 5px;
+
+    .dashedBorder {
+      border: 3px dashed;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      background-clip: content-box;
+      padding: 4px;
+      &:first-child {
+        margin-right: 20px;
+      }
+      @media screen and (max-width: $breakpoint4) {
+        font-size: 10px;
+        &:first-child {
+          margin-right: 10px;
+        }
+      }
+      a {
+        all: unset;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3px 9px;
+        cursor: pointer;
+      }
+    }
+
+    .pink {
+      background-color: $light_pink;
+      border-color: $light_pink;
+    }
+    .blue {
+      background-color: $light_blue;
+      border-color: $light_blue;
+    }
+  }
+  .burger {
+    display: none;
+    grid-area: burger;
+    margin-top: 20px;
+    @media screen and (max-width: $breakpoint1) {
+      display: block;
+    }
+  }
+}

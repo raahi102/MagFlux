@@ -1,0 +1,95 @@
+@import '../../../theme';
+
+.leadForm {
+  width: 40%;
+  font-family: $primary_font_bold;
+  .eachInput {
+    margin: 25px 0;
+    position: relative;
+    &:after {
+      content: '';
+      position: absolute;
+      background-color: $charcoal;
+      width: 101%;
+      height: 4px;
+      bottom: 0;
+      left: -3px;
+      border-radius: 3px;
+    }
+    input[type='text'],
+    input[type='number'] {
+      all: unset;
+      padding: 9px 2px;
+      font-size: 22px;
+      width: 100%;
+      font-family: $primary_font_medium_italic;
+      @media screen and (max-width: $breakpoint1) {
+        font-size: 17px;
+      }
+    }
+  }
+  .action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0;
+    button {
+      all: unset;
+      cursor: pointer;
+      color: white;
+      background-color: $charcoal;
+      padding: 10px 30px;
+      border-radius: 20px;
+      font-size: 20px;
+      font-family: $primary_font_medium;
+    }
+  }
+  .error {
+    background-color: $error_bg_color;
+    color: $error_text_color;
+    padding: 13px;
+    text-align: center;
+  }
+  .success {
+    background-color: $success_bg_color;
+    color: $success_text_color;
+    padding: 13px;
+    text-align: center;
+  }
+  .inputWithOption {
+    display: grid;
+    grid-template-columns: 1fr 35px;
+    grid-template-areas: 'input drop' 'down down';
+    position: relative;
+    .inputLeft {
+      grid-area: input;
+    }
+    .drop {
+      grid-area: drop;
+      font-size: 32px;
+      cursor: pointer;
+      @media screen and (max-width: $breakpoint1) {
+        font-size: 28px;
+      }
+    }
+    .down {
+      grid-area: down;
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+      border-radius: 12px;
+      padding: 5%;
+      position: absolute;
+      right: 0;
+      top: -10px;
+      z-index: 1;
+      background-color: white;
+      .grade {
+        font-family: $primary_font_medium;
+        font-size: 20px;
+        cursor: pointer;
+        margin: 10px 0;
+        position: relative;
+        z-index: 1;
+      }
+    }
+  }
+}

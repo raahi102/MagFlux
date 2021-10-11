@@ -1,0 +1,56 @@
+@import '../../theme';
+
+.testimonyCard {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .chatBubble {
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    background-color: $light_pink;
+    color: white;
+    font-size: 20px;
+    border-radius: 35px;
+    position: relative;
+    margin-bottom: 50px;
+    border-color: $light_pink;
+    &:after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 0;
+      bottom: -20%;
+      left: 0%;
+      border: 40px solid transparent;
+      border-right-color: inherit;
+    }
+  }
+  .profile {
+    display: flex;
+    align-items: center;
+    margin: 16px 0 0 34px;
+    .avatar {
+      height: 100px;
+      width: 100px;
+      img {
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+    .details {
+      margin-left: 30px;
+      .name {
+        font-size: 25px;
+        color: $charcoal;
+      }
+      .intro {
+        font-weight: 300;
+        color: $charcoal;
+      }
+    }
+  }
+}

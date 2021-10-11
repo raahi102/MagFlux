@@ -1,0 +1,22 @@
+@import '../../theme';
+
+.container {
+  background-color: $yellow_dull;
+  padding: 60px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .title {
+    margin-bottom: 20px;
+    font-size: 48px;
+    align-self: center;
+    color: $charcoal;
+  }
+  .imagesContainer {
+    .InfiniteCarouselSlide {
+      .eachImage {
+        padding: 0 20px;
+      }
+    }
+  }
+}
