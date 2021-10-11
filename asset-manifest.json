@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/MagFlux/static/css/main.f304e9c0.chunk.css",
+    "main.js": "/MagFlux/static/js/main.dc1916bd.chunk.js",
+    "main.js.map": "/MagFlux/static/js/main.dc1916bd.chunk.js.map",
+    "runtime-main.js": "/MagFlux/static/js/runtime-main.170b3e86.js",
+    "runtime-main.js.map": "/MagFlux/static/js/runtime-main.170b3e86.js.map",
+    "static/js/2.b3ea6a10.chunk.js": "/MagFlux/static/js/2.b3ea6a10.chunk.js",
+    "static/js/2.b3ea6a10.chunk.js.map": "/MagFlux/static/js/2.b3ea6a10.chunk.js.map",
+    "index.html": "/MagFlux/index.html",
+    "precache-manifest.80f599960a4d49177c8b35ebe256134f.js": "/MagFlux/precache-manifest.80f599960a4d49177c8b35ebe256134f.js",
+    "service-worker.js": "/MagFlux/service-worker.js",
+    "static/css/main.f304e9c0.chunk.css.map": "/MagFlux/static/css/main.f304e9c0.chunk.css.map",
+    "static/js/2.b3ea6a10.chunk.js.LICENSE.txt": "/MagFlux/static/js/2.b3ea6a10.chunk.js.LICENSE.txt",
+    "static/media/HelveticaNeue.woff": "/MagFlux/static/media/HelveticaNeue.af9a76ad.woff",
+    "static/media/HelveticaNeueBold.woff": "/MagFlux/static/media/HelveticaNeueBold.190b4e09.woff",
+    "static/media/HelveticaNeueMedium.ttf": "/MagFlux/static/media/HelveticaNeueMedium.0a13c540.ttf",
+    "static/media/HelveticaNeueMediumItalic.woff": "/MagFlux/static/media/HelveticaNeueMediumItalic.9a9a6ae7.woff",
+    "static/media/activityBasedLearning@2x.jpg": "/MagFlux/static/media/activityBasedLearning@2x.9899e635.jpg",
+    "static/media/approach@2x.png": "/MagFlux/static/media/approach@2x.74ba830d.png",
+    "static/media/approachSmall@2x.png": "/MagFlux/static/media/approachSmall@2x.d4ffaeee.png",
+    "static/media/arrow.png": "/MagFlux/static/media/arrow.0fadf605.png",
+    "static/media/bulb.png": "/MagFlux/static/media/bulb.eac9eea2.png",
+    "static/media/clock.png": "/MagFlux/static/media/clock.9b4f113b.png",
+    "static/media/communicationSkills@2x.jpg": "/MagFlux/static/media/communicationSkills@2x.622d4a1f.jpg",
+    "static/media/gear.png": "/MagFlux/static/media/gear.b2f7f984.png",
+    "static/media/hero2x.jpg": "/MagFlux/static/media/hero2x.ed704e0f.jpg",
+    "static/media/heroSmall2x.jpg": "/MagFlux/static/media/heroSmall2x.6af2549c.jpg",
+    "static/media/logo1024.jpeg": "/MagFlux/static/media/logo1024.09083986.jpeg",
+    "static/media/pencil.png": "/MagFlux/static/media/pencil.4982a082.png",
+    "static/media/personalityDevelopment@2x.jpg": "/MagFlux/static/media/personalityDevelopment@2x.6e667587.jpg",
+    "static/media/rope.png": "/MagFlux/static/media/rope.6ae31bfd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.170b3e86.js",
+    "static/js/2.b3ea6a10.chunk.js",
+    "static/css/main.f304e9c0.chunk.css",
+    "static/js/main.dc1916bd.chunk.js"
+  ]
+}
