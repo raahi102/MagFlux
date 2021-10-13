@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/MagFlux/precache-manifest.80f599960a4d49177c8b35ebe256134f.js"
+  "/MagFlux/precache-manifest.89e0121693af1779f801639fa1264f07.js"
 );
 
 self.addEventListener('message', (event) => {

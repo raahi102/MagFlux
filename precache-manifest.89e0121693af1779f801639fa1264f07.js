@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6f9d9c38e1cb28fe9739cbbfb1d4adf0",
+    "revision": "2ff71f74996133b09d6bba4d67de7b72",
     "url": "/MagFlux/index.html"
   },
   {
-    "revision": "ab11a92a7b7ed4057465",
+    "revision": "d88b2580a85551726301",
     "url": "/MagFlux/static/css/main.f304e9c0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MagFlux/static/js/2.b3ea6a10.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ab11a92a7b7ed4057465",
-    "url": "/MagFlux/static/js/main.dc1916bd.chunk.js"
+    "revision": "d88b2580a85551726301",
+    "url": "/MagFlux/static/js/main.0eaf64fb.chunk.js"
   },
   {
     "revision": "7561210131d58d384149",
@@ -76,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MagFlux/static/media/hero2x.ed704e0f.jpg"
   },
   {
-    "revision": "6af2549c72c8138793a695ae4cac6505",
-    "url": "/MagFlux/static/media/heroSmall2x.6af2549c.jpg"
+    "revision": "10624a68f3727937d8872011ad43a43f",
+    "url": "/MagFlux/static/media/heroSmall2x.10624a68.png"
   },
   {
     "revision": "0908398610be4453e947b35f5ed8aa29",
