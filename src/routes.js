@@ -25,7 +25,7 @@ const LattuRouter = () => {
         <Route path="/" exact>
         <ProgramScreen />
         </Route>
-        <Route path="/programs">
+        <Route path="/MagFlux">
           <ProgramScreen />
         </Route>
         <Route path="/aboutus">

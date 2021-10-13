@@ -11,7 +11,7 @@ const Courses = ({ title, background }) => {
       grade: 'Basic',
       headerColor: '#ec6c66',
       sessions: 6,
-      age: 5,
+      age: 3,
       price: '299',
       topics: [
         'Lighting Control',
@@ -45,7 +45,7 @@ const Courses = ({ title, background }) => {
       title: 'Yearly(12 Months)',
       grade: 'Super Saver',
       sessions: 24,
-      age: 7,
+      age: 12,
       price: '899',
       headerColor: '#60c9b6',
       topics: [

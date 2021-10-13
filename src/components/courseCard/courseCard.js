@@ -29,7 +29,7 @@ const CourseCard = ({
             <div className={styles.icon}>
               <FaCalendarAlt />
             </div>
-            <div className={styles.number}>{`Age ${age}`}</div>
+            <div className={styles.number}>{` ${age} Months`}</div>
           </div>
         </div>
       </div>

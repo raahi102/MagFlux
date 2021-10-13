@@ -1,7 +1,7 @@
 import React from 'react';
 
 import HeroImg from '../../assets/images/hero2x.jpg';
-import HeroSmallImg from '../../assets/images/heroSmall2x.jpg';
+import HeroSmallImg from '../../assets/images/heroSmall2x.png';
 import Courses from '../../components/courses/courses';
 import Demo from '../../components/demo/demo';
 import Gallery from '../../components/gallery/gallery';

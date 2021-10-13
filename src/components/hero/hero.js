@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import HeroImg from '../../assets/images/hero2x.jpg';
-import HeroImgSm from '../../assets/images/heroSmall2x.jpg';
+import HeroImgSm from '../../assets/images/heroSmall2x.png';
 import styles from './hero.module.scss';
 
 const Hero = ({

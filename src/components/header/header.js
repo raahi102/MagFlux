@@ -39,7 +39,7 @@ const Header = () => {
         <nav className={styles.nav}>
           <NavLink
             onClick={() => setNavVisible(false)}
-            to="/programs"
+            to="/MagFlux"
             activeClassName={styles.activeLink}>
             
            < div className={styles.title}>Home</div>
